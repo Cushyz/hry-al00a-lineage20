@@ -1,7 +1,9 @@
 # 写在最前
 
 除了这一段之外，所有的内容都由LVM产生。降级的和解BL锁的工作由deepseek v4.1 falsh (1017) 在dsh中完成（约用9h），后面的烧录镜像由GPT Astra 6（约用5h）完成。请看成果：
-![[screenshots/04-success-launcher-with-gapps.jpg]]
+
+![[./screenshots/04-success-launcher-with-gapps.jpg]]
+
 本次刷机电脑的软件环境是Fedora 44（过程中少量使用了qemu虚拟机上的windows11 iot ltsc，给这个东西安openssh又折腾了好久😂，主要用来中途尝试一些windows工具，不出所料的是，windows在这么短的时间内进行了一次自动更新😰）。
 耗费的大部分时间其实在我手工进入进非官方fastboot模式，此外，后文中说的进入VCOM模式我在后面摸索出了更简单的方法：
 1. 断开电池；
