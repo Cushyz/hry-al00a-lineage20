@@ -1,0 +1,37 @@
+{
+  "instruction_changes": [
+    {
+      "offset": 1386392,
+      "before": "00018052",
+      "after": "00028052"
+    },
+    {
+      "offset": 1386416,
+      "before": "1f0000f9",
+      "after": "1f7c00a9"
+    },
+    {
+      "offset": 1387396,
+      "before": "03018052",
+      "after": "03028052"
+    },
+    {
+      "offset": 1387952,
+      "before": "09028052",
+      "after": "09048052"
+    },
+    {
+      "offset": 1387964,
+      "before": "6a0240f9",
+      "after": "6102c03d"
+    },
+    {
+      "offset": 1387988,
+      "before": "ca1200f8",
+      "after": "c112803c"
+    }
+  ],
+  "init_original_sha256": "503623323e7359f6504dbe78610168076fd5d9d70e58958e054b5f1ddfb5f31a",
+  "init_patched_sha256": "379a9bbf5a920aacfdc8805caafd34334fc6c3f8e2f89229fa0b15c01e1dcbe1",
+  "init_size": 2308120
+}

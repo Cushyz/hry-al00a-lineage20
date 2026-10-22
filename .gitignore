@@ -1,0 +1,34 @@
+# Allowlist: do not accidentally publish the surrounding phone laboratory.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/LICENSE-docs
+!/CONTRIBUTING.md
+!/FLASHING.md
+!/docs/
+!/scripts/
+!/patches/
+!/evidence/
+!/screenshots/
+!/al00-leaos-lab/
+/docs/*
+!/docs/*.md
+/scripts/*
+!/scripts/*.py
+/patches/*
+!/patches/*.S
+/evidence/*
+!/evidence/*.json
+/screenshots/*
+!/screenshots/*.jpg
+/al00-leaos-lab/*
+!/al00-leaos-lab/scripts/
+/al00-leaos-lab/scripts/*
+!/al00-leaos-lab/scripts/*.py
+**/__pycache__/
+*.pyc
+# 本目录随附的二进制包（体积大，不纳入版本库）
+/*.zip
+/*.7z
+/rom/

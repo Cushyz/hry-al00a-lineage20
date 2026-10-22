@@ -1,0 +1,72 @@
+{
+  "case_date": "2026-10-22/2026-10-23 Asia/Shanghai",
+  "device_model": "HRY-AL00a",
+  "scope": "Single-device case; sanitized selection, not raw logs or independent certification.",
+  "rom": {
+    "filename": "LeaOS-OSS-20.0-20260815-harry.zip",
+    "sha256": "9958ee9b21517538cbb42d7f1c79e96fb4449173945594d574516175ec17a81a"
+  },
+  "historical_layout_only_zip": {
+    "sha256": "bf6e9e67b8b0aa67d26c1e9d47347d7b846dff7b5efc2a37f314ad5fb06a2426",
+    "includes_init_fix": false
+  },
+  "historical_empty_metadata_sha256": "68e5f74e4903794dc3d6c7bcd5429f4e4a3db6f305c2fa696c15513417ee4bd3",
+  "physical_sizes_bytes": {
+    "system": 1988100096,
+    "cust": 92274688,
+    "odm": 100663296,
+    "preas": 142606336,
+    "product": 1098907648,
+    "vendor": 503316480
+  },
+  "adapted_logical_sizes_bytes": {
+    "system": 972558336,
+    "vendor": 689430528,
+    "product": 1468006400,
+    "odm": 230973440,
+    "system_ext": 417587200
+  },
+  "usable_bytes": 3919577088,
+  "remaining_pool_bytes": 141021184,
+  "product_integrity": {
+    "file_tree_match": true,
+    "inode_metadata_and_xattrs_match": true,
+    "entries": 586,
+    "regular_files": 445,
+    "compared_inode_metadata_lines": 4109
+  },
+  "init_device_readback": {
+    "status": "verified",
+    "sha256": "379a9bbf5a920aacfdc8805caafd34334fc6c3f8e2f89229fa0b15c01e1dcbe1"
+  },
+  "leaos_kernel_restored": {
+    "status": "verified",
+    "sha256": "aaf956be87deafc463bbdbdda22ca1dc5ea833a0cf74c5aa7e2d67da386aa4d4"
+  },
+  "gapps": {
+    "filename": "MindTheGapps-13.0.0-arm64-20231025_200931.zip",
+    "local_sha256": "3ff2edaa75406eb4214402fca6906d4b413ab50afdb1af033d9e396992338d0b",
+    "hash_provenance": "Local integrity pin, not an independently verified publisher checksum",
+    "selected_payload_files": 31,
+    "files_checked_including_init": 32,
+    "mismatches": {},
+    "addon_script_present": true
+  },
+  "user_confirmed": [
+    "Android setup and desktop",
+    "Phone boot after diagnostic kernel removal",
+    "CMCC SIM detection and voice calls",
+    "Wi-Fi and application setup"
+  ],
+  "not_fully_validated": [
+    "dual SIM",
+    "NFC",
+    "cellular web access",
+    "camera",
+    "fingerprint",
+    "SD card",
+    "long-term stability",
+    "OTA",
+    "Google certification"
+  ]
+}
